@@ -90,7 +90,7 @@ These records support an observed improvement on this window. They do not establ
 
 An independent replay of 62 saved curves × 59 days (3,658 daily decisions) found no action mismatches and settlement agreement within 1.5 × 10⁻¹¹. That checks the implementation against the frozen records. It does not certify future performance. The audit narrative is in [AUDIT.md](AUDIT.md); the machine-readable comparisons are in [`audit_records/`](audit_records/).
 
-The English report snapshot is [report/pdf/dispatch_value_report_en.pdf](report/pdf/dispatch_value_report_en.pdf) (18 pages, 15 September 2026 evidence review). It is the reproducibility snapshot that the build tools regenerate. It still uses broad wording on capacity and market origin; read it with the two clarifications above: the 8+8 family meets the discrete 0–8,000 task-unit path, and the competition statement describes an anonymized Mengxi node. Efficiency, degradation, and cost are still unmodeled.
+The English report is [report/pdf/dispatch_value_report_en.pdf](report/pdf/dispatch_value_report_en.pdf), recompiled from [`report/en/main.tex`](report/en/main.tex). It uses the same reading as this page. The implemented 8+8 schedule has a task-unit storage path from 0 to 8,000 and back to 0. Physical state of charge, efficiency, degradation, and cost are not in the solver. The 59-day window was already inspected. The 7.72% figure is a raw dispatch-score difference, not a rate of return. The competition statement describes an anonymized Mengxi node, and the files label it only as `A`.
 
 ## 6. Quickstart and reproducibility
 
