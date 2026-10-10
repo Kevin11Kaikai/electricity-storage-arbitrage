@@ -1,0 +1,21 @@
+configuration,role,mean_raw_dispatch_score,difference_vs_prior_best_lstm,negative_score_days,idle_days,point_rmse_auxiliary
+Matched LightGBM baseline,Matched baseline,5786.100871012543,-515.2310936369713,3,0,0.5625259685360955
+Notebook 11 / v2 Transformer,Notebook 11 reference,6214.361781989832,-86.970182659682,2,0,0.6827877171860671
+Notebook 11 / v2 Ridge,Notebook 11 reference,6202.841477641694,-98.49048700781988,1,0,0.8079187762169173
+Notebook 11 / v1 Transformer (historical reference),Non-matched historical reference,5637.171401873099,-664.1605627764147,4,0,0.5195576699847868
+Notebook 11 / v1 LSTM (historical reference),Non-matched historical reference,4554.389778014749,-1746.9421866347648,8,0,0.5528080180991081
+"Prior window-CE, Transformer",Prior window-CE result,6213.626563877091,-87.70540077242276,1,0,1.6212809129703454
+"Prior window-CE, LSTM",Prior window-CE result,6301.331964649514,0.0,1,0,0.8590587991965877
+"Prior window-CE, DLinear",Prior window-CE result,5537.905309633621,-763.4266550158927,5,0,0.8846482652606064
+"Soft regret, Transformer",Predeclared soft-regret branch,6170.572762761753,-130.75920188776036,3,0,1.0101317396426963
+"Soft regret, LSTM",Predeclared soft-regret branch,6485.729034957,184.3970703074865,1,0,0.9484137766392936
+"Soft regret, DLinear",Preselected soft-regret primary,5135.055607213882,-1166.2763574356322,5,0,1.110568699862538
+"Same-initialization window CE, Transformer","Window-CE control, not the soft-regret loss",6570.706822364337,269.3748577148235,1,0,1.8854601474672863
+"Same-initialization window CE, LSTM","Window-CE control, not the soft-regret loss",6163.541306044665,-137.79065860484843,1,0,0.8408227846012671
+"Same-initialization window CE, DLinear","Window-CE control, not the soft-regret loss",5537.905309633621,-763.4266550158927,5,0,0.8775061811457262
+"MSE / select by dispatch score, Transformer",Selection-metric control,6134.299468228066,-167.03249642144783,2,0,0.6016904847238722
+"MSE / select by RMSE, Transformer",MSE reference,6130.304864030927,-171.0271006185867,2,0,0.6309423830280793
+"MSE / select by dispatch score, LSTM",Selection-metric control,5840.463442874529,-460.8685217749844,1,0,0.5793747089302111
+"MSE / select by RMSE, LSTM",MSE reference,5869.186826554424,-432.14513809508935,3,0,0.5286446754600312
+"MSE / select by dispatch score, DLinear",Selection-metric control,6186.444630889453,-114.88733376006076,3,0,0.5990314537275384
+"MSE / select by RMSE, DLinear",MSE reference,6186.444630889453,-114.88733376006076,3,0,0.5990314537275384
